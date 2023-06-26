@@ -1,2 +1,1 @@
-# signup_template-GE   https://au7anmolupadhyay.github.io/signup_template-GE/
-The glassmorphic signup layout is a visually stunning design created with HTML and CSS. It features translucent glass-like elements, blending with the background, offering an elegant and modern user experience.
+The glassmorphic signup layout, developed using HTML and CSS, showcases a stylish and contemporary design. Experience the visually appealing and user-friendly signup template by visiting this link: [Signup Template](https://au7anmolupadhyay.github.io/signup_template-GE/).
