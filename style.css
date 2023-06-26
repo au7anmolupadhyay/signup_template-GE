@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:wght@500&family=Playfair+Display&family=Poppins:wght@200;400&family=Roboto&family=Urbanist:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    /* background-image: url("https://cdn.pixabay.com/photo/2016/03/18/15/02/ufo-1265186_1280.jpg"); */
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: #ffffff10;
+    /* background: linear-gradient(to bottom right, #ffffff10,  #e8e1e133); */
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 2px 2px 5px #3d98d5;
+    z-index: 2;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.signup-body p input[type="submit"]{
+    background-color: #50aae7;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #3d98d5;
+}
+
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color: #066db1;
+    text-decoration: none;
+}
+
+.signup-footer p a:hover{
+    color: #094b78;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 500px;
+}
+
+.c2{
+    bottom: 150px;
+    right: 500px;
+}
